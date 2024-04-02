@@ -1,0 +1,36 @@
+{{nam}}
+<br>
+We are living in {{country}}
+<br>
+I am study at {{university}}
+<br>
+My GPA: {{grade}}
+<br>
+Music genre:
+<br>
+<ul style="list-style-type: circle">
+    {{#each music}} 
+    <li>{{this}}</li>
+{{/each}}
+</ul>
+
+<ol type= "A">
+    {{#each movies}} 
+    <li>{{this}}</li>
+{{/each}}
+</ol>
+
+
+<!-- heach : foreach loop -->
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+    </tr>
+    {{#each countrys }}
+    <tr>
+        <td>{{this}}</td>
+    {{/each}}
+</table>
+
+
+    
